@@ -49,8 +49,9 @@
 <br/><br/>
 
 <p align="center">
-  <img src="../img/regexp-cn.png" alt="Regular expression">
+  <img src="./img/regexp-cn.png" alt="Regular expression">
 </p>
+
 以上的正则表达式可以接受 `john_doe`, `jo-hn_doe`, `john12_as`.
 但不匹配`Jo`, 因为它包含了大写的字母而且太短了.
 
@@ -348,7 +349,7 @@
 |\D|匹配非数字: `[^\d]`|
 |\s|匹配所有空格字符, 等同于: `[\t\n\f\r\p{Z}]`|
 |\S|匹配所有非空格字符: `[^\s]`|
-|\b|匹配一个单词边界，也就是指单词和空格间的位置。例如，`er\b`可以匹配`never`中的`er`，但不能匹 配`verb`中的`er`|
+|\b|匹配一个单词边界，也就是指单词和空格间的位置。例如，`er\b`可以匹配`never ` 中的`er`，但不能匹 配`verb`中的`er`|
 |\B|匹配非单词边界，`er\B`能匹配“verb”中的`er`，但不能匹配`never`中的`er`|
 
 ## 4. 前后关联约束(前后预查)
